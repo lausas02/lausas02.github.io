@@ -2,6 +2,7 @@
 {
   font-size: 32px;
     font-family: NoticiaText;
+color: #0077b6;
 }
 div > ul> li > a
 {
@@ -19,10 +20,13 @@ div > ul > li > ul > li > a
 a
 {
   text-decoration: none;
-color: #03045e;
+color: #023e8a;
 }
 p
 {
 font-size: 32px;
     font-family: NoticiaText;
+}
+body {
+    margin: 0px !important;
 }
