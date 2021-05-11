@@ -2,7 +2,6 @@
 {
   font-size: 32px;
     font-family: NoticiaText;
-    padding-left: 16px;
 }
 div > ul> li > a
 {
@@ -19,4 +18,9 @@ div > ul > li > ul > li > a
 a
 {
   text-decoration: none;
+}
+p
+{
+font-size: 32px;
+    font-family: NoticiaText;
 }
