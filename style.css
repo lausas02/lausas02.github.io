@@ -4,3 +4,19 @@
     font-family: NoticiaText;
     padding-left: 16px;
 }
+div > ul> li > a
+{
+  font-size: 24px;
+    font-family: NoticiaText;
+    font-weight: bold;
+}
+div > ul > li > ul > li > a
+{
+  font-size: 20px;
+    font-weight: 300;
+}
+
+a
+{
+  text-decoration: none;
+}
