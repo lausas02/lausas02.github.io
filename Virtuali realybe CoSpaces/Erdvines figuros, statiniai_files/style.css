@@ -1,0 +1,209 @@
+.dxTextFieldText::selection {
+  color: #ffffff;
+  background-color: #25cbaa;
+}
+.injectionDiv, .injectionDiv * {
+  font-family: Noto Sans Regular, sans-serif !important;
+}
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#loaderDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  color: #797979;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  z-index: 500;
+  margin: auto;
+  padding-top: 20px;
+}
+#loading .content {
+  margin: auto;
+  width: 350px;
+}
+.logo.textLoading {
+  font-family: Noto Sans SemiBold, sans-serif;
+  height: 31px;
+  margin: auto auto 27px;
+}
+.logo.loading {
+  margin: auto auto 15px;
+}
+.loader {
+  background-size: 20px 20px;
+}
+
+.monaco-editor .deprecated-element {
+  text-decoration: line-through
+}
+
+.dev-indicator {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  opacity: 0.4;
+  padding: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* http://webagility.com/posts/the-ultimate-list-of-hacks-for-chromes-forced-yellow-background-on-autocompleted-inputs */
+:-webkit-autofill,
+:-webkit-autofill:hover,
+:-webkit-autofill:focus,
+:-webkit-autofill:active {
+  transition: background-color 99999s ease-in-out 0s, color 99999s ease-in-out 0s;
+  --dx-autofill-marker: "autofill";
+}
+
+#webgl  {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans Medium, sans-serif;
+  font-size: 16px;
+}
+
+#webgl h1 {
+  font-family: Noto Sans ExtraBold, sans-serif;
+  font-size: 34px;
+}
+
+#webgl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#webgl .toolbar {
+  height: 62px;
+  width: 100%;
+}
+
+#webgl .reason {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 62px;
+  bottom: 0;
+  padding: 10px;
+}
+
+#webgl .reason > div {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#webgl .reason > div > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#webgl .explanation > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#webgl .explanation > img {
+  margin-right: 35px;
+  width: 383px;
+  height: 300px;
+}
+
+#webgl .explanation > div {
+  max-width: 400px;
+  text-align: left;
+}
+
+#webgl .explanation:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+
+#webgl a.button {
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 9px 25px;
+  color: white;
+  font-family: Noto Sans SemiBold, sans-serif;
+  display: inline-block;
+  margin-top: 9px;
+}
+
+@font-face {
+  font-family: 'Noto Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Bold Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: local('☺︎'),
+  url('../data/fonts/Noto Sans Bold Italic.ttf') format('truetype');
+}

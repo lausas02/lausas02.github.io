@@ -1,0 +1,64 @@
+body, #loaderDiv {
+  background-color: #011c3b;
+  background: linear-gradient(to right, #fffaf6, #faeaf4);
+}
+
+.logo.loading {
+  background-image: url(../images/loadingLogo.png);
+  width: 300px;
+  height: 80px;
+ }
+
+.logo.noWebGl {
+  background-image: url(../images/loadingLogo.png);
+  width: 300px;
+  height: 80px;
+  margin: auto;
+ }
+
+.logo.textLoading {
+  text-align: center;
+  font-size: 18px;
+  color: #250c35;
+  width: 185px;
+}
+
+#loading .content .status {
+  height: 2px;
+  margin-bottom: 30px;
+  position: relative;
+  background-color: #c4b6cb;
+}
+
+.loader-r {
+  width: 0;
+  height: 100%;
+  background-color: #4f2a69;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#webgl  {
+  background: linear-gradient(to right, #fffaf6 0%, #faeaf4 100%);
+  color: #2e2e2e;
+}
+
+#webgl .toolbar {
+  background: linear-gradient(to right, #ed6f00 0%, #c73c98 100%);
+}
+
+#webgl .explanation p {
+    color: #656565;
+}
+
+#webgl a.button {
+  background-color: #ed6f00;
+}
+
+#webgl .toolbar .logo {
+  width: 158px;
+  height: 32px;
+  margin-top: 15px;
+  margin-left: 23px;
+}
